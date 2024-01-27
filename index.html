@@ -29,33 +29,53 @@
         font-family: "Poppins", sans-serif;
       }
     </style>
-    <title>Kampung Wisata Batik Kauman Solo</title>
+    <title>Website Desa</title>
   </head>
 
-  <body class="mx-auto bg-white">
+  <body class="">
     <div class="mx-auto">
+      <!-- footer -->
+      <div
+        class="bg-[#458F39] w-full h-10 fixed top-0 z-50 flex justify-between items-center text-xs px-4"
+      >
+        <div class="flex justify-between w-full px-56 gap-4 text-white">
+          <div class="flex items-center">
+            <ion-icon name="logo-whatsapp" class="text-base"></ion-icon>
+            <p class="ml-1">0821-8373-833 |</p>
+          </div>
+          <div class="flex items-center">
+            <ion-icon name="mail-outline" class="text-base"></ion-icon>
+            <p class="ml-1">@desapandanmakmurtjt.co.id</p>
+          </div>
+          <div class="flex items-center">
+            <ion-icon name="location-outline" class="text-base"></ion-icon>
+            <p class="ml-1">Kabupaten Tanjung Jabung Timur</p>
+          </div>
+        </div>
+      </div>
+
       <!-- Navbar -->
       <header
-        class="p-4 bg-white fixed w-full top-0 z-50 px-5 lg:px-10 items-center"
+        class="p-4 bg-white fixed w-full top-10 z-50 px-5 lg:px-10 items-center"
       >
         <nav class="flex items-center justify-between h-12">
-          <div class="flex gap-3 justify-center items-center">
-            <img src="./assets/Logo.svg" class="w-8" alt="Logo" />
-            <h1 class="font-bold text-sm sm:text-base">
-              Kampung Wisata Batik Kauman Solo
+          <div class="flex gap-4 justify-center items-center">
+            <img src="./assets/Logo.png" class="w-8" alt="Logo" />
+            <h1 class="font-bold text-sm w-52">
+              DESA PANDAN MAKMUR KECAMATAN GERAGAI
             </h1>
           </div>
           <div>
             <div
               class="hidden lg:flex gap-5 justify-center items-center text-sm"
             >
-              <a href="./index.html" class="font-bold">Home</a>
-              <a href="./about.html" class="">About Us</a>
-              <a href="./program.html" class="">Program</a>
-              <a href="./activity.html" class="">Activity</a>
-              <a href="./galery.html" class="">Gallery</a>
+              <a href="./index.html" class="font-bold">Dashboard</a>
+              <a href="./Profil-Tentang.html" class="">Profil Desa</a>
+              <a href="" class="">Pemerintahan</a>
+              <a href="" class="">Berita Desa</a>
+              <a href="" class="">Transparansi</a>
+              <a href="" class="">UMKM</a>
             </div>
-
             <div class="lg:hidden flex justify-center items-center text-sm">
               <button id="burger-menu" class="text-gray-500 focus:outline-none">
                 <ion-icon name="menu-outline" class="text-2xl"></ion-icon>
@@ -66,312 +86,283 @@
       </header>
 
       <main class="pt-16">
+        <!-- image dashboard -->
         <div class="flex flex-col gap-0 items-center w-full">
-          <img
-            src="./assets/home/Foto Home.jpg"
-            class="h-3/4 w-full"
-            alt="Kampung Home Image"
-          />
-          <div
-            class="w-full h-full bg-gradient-to-b from-[#ff860d] to-[#EDB059] text-center p-7 px-4 sm:px-32"
-          >
-            <h1 class="font-bold text-2xl sm:text-3xl lg:text-4xl pb-1">
-              Kauman, come and fall in love with Batik
-            </h1>
-            <p class="text-base sm:text-lg text-center">
-              Kampung Wisata Batik Kauman Solo adalah kampung batik yang
-              menawarkan lebih dari pengalaman berbelanja. Pengunjung juga bisa
-              mempelajari tentang bagaimana proses batik teriadi dan pengunjung
-              bisa mendabat real experience membatik sendiri. Selain itu, di
-              kampung wisata batik kauman Solo memiliki wisata kuliner halal
-              khas Kauman dari jajanan pasar, hingga coffee shop dan dilengkapi
-              rumah makan khas jawa dan modern.
-            </p>
-          </div>
+          <img src="./assets/img dashboard.png" class="h-3/4 w-full" />
         </div>
 
-        <!-- LIST -->
-        <div
-          class="flex flex-col lg:flex-row gap-20 pt-10 justify-center items-center px-10 lg:px-32"
-        >
-          <!-- left content -->
-          <div class="w-full lg:w-1/2">
-            <h1 class="font-semibold text-blue-400 text-xl lg:text-3xl">
-              Kabar Kampung
-            </h1>
-            <span
-              class="border-b-4 border-[#09E1C0] block w-10 mt-8 mb-6"
-            ></span>
-
-            <img
-              src="./assets/home/Foto Berita.jpeg"
-              class="w-full"
-              alt="Gambar Kabar"
-            />
-            <h1 class="font-bold text-sm sm:text-base pt-3 pb-2">
-              Silaturahmi Tokoh Masyarakat dan Pelaku Usaha di Kelurahan Kauman
-            </h1>
-            <p class="text-[#A7C4D6] text-sm">
-              Silaturahmi tokoh masyarakat dan pelaku usaha di kelurahan kauman
-              yang di hadiri oleh Bapak Wakil Walikota Surakarta Bapak Drs.
-              Teguh Prakosa bersama dengan Bapak Lurah Kauman dan berbagai tokoh
-              masyarakat Kauman serta beberapa perwakilan UMKM Batik dan Kuliner
-              di Kauman.
-            </p>
-            <!-- <span
-              class="border-b border-gray-200 block w-full mt-3 mb-3"
-            ></span> -->
-            <!-- <button
-              class="bg-orange-400 rounded-full shadow-lg shadow-blue-300 text-white text-xs px-5 py-3 uppercase"
-            >
-              <a href="https://surakarta.go.id/?p=29599">index berita</a>
-            </button> -->
-          </div>
-
-          <!-- right content -->
-          <div class="flex flex-col w-full lg:w-1/2">
-            <div class="flex flex-row gap-4 pb-5 items-start">
-              <a
-                href="https://www.instagram.com/p/C1B7BpEJral/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA%3D%3D"
-                class="align-self-start pt-1"
-              >
-                <img src="./assets/home/Link 1.png" class="w-28 h-10" />
-              </a>
-              <div>
-                <h1 class="font-bold text-base">
-                  Kunjungan Santri Daarul Tauhid Bandung
-                </h1>
-                <a class="text-sm text-[#A7C4D6]">
-                  Kunjungan dari Santri Daarul Tauhid Bandung berlangsung pada
-                  tanggal Selasa, 19 desember 2023, yang dimana para santri
-                  melihat proses pembuatan batik tulis Di Kampung Wisata Batik
-                  Kauman, Solo.
-                </a>
-              </div>
-            </div>
-
-            <div class="flex flex-row gap-4 pb-5 items-start">
-              <a
-                href="https://www.instagram.com/p/C0-npz0P51l/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA%3D%3D"
-              >
-                <img src="./assets/home/Link 1.png" class="w-40 h-10" />
-              </a>
-              <div>
-                <h1 class="font-bold text-base">
-                  Kegiatan Belajar Membatik Mahasiswa dan Mahasiswi Universitas
-                  Muhamadiyah Surakarta.
-                </h1>
-                <p class="text-sm text-[#A7C4D6]">
-                  kegiatan yang dilaksanakan oleh mahasiswa dan mahasiswi UMS
-                  diikuti oleh sekitar 50 orang, masing masing mahasiswa dapat
-                  mencoba membuat batik kombinasi secara langsung, tidak hanya
-                  itu mereka juga dapat menikmati beberapa kuliner yang ada dan
-                  beberapa spot foto yang tersedia.
-                </p>
-              </div>
-            </div>
-
-            <div class="flex flex-row gap-4 pb-5 items-start">
-              <a
-                href="https://www.instagram.com/p/C03k_37P5IH/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA%3D%3D"
-              >
-                <img src="./assets/home/Link 1.png" class="w-32 h-10" />
-              </a>
-              <div>
-                <h1 class="font-bold text-base">
-                  Kunjungan PT. MMS Group Indonesia
-                </h1>
-                <p class="text-sm text-[#A7C4D6]">
-                  Anggota PT. MMS Group Indonesia berkunjung ke Kampung Wisata
-                  Batik Kauman solo untuk membuat batik secara bersamaan, selain
-                  membuat batik para anggota tidak lupa menikmati hidangan khas
-                  dari Kampung Wisata Batik Kauman Solo.
-                </p>
-              </div>
-            </div>
-
-            <div class="flex flex-row gap-4 pb-5 items-start">
-              <a
-                href="https://www.instagram.com/p/C0tVH34POV-/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA%3D%3D"
-              >
-                <img src="./assets/home/Link 1.png" class="w-20 h-10" />
-              </a>
-              <div>
-                <h1 class="font-bold text-base">
-                  Kunjunagn SMP Cita Buana Jakarta
-                </h1>
-                <p class="text-sm text-[#A7C4D6]">
-                  Tidak hanya para siswa dan siswi yang mengikuti kegiatan
-                  membatik, tetapi para guru dan karyawan juga ikut serta dalam
-                  kegiatan membatik ini.
-                </p>
-              </div>
-            </div>
-
-            <div class="flex flex-row gap-4 pb-5 items-start">
-              <a
-                href="https://www.instagram.com/p/C0tU4G1PjbB/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA%3D%3D"
-              >
-                <img src="./assets/home/Link 1.png" class="w-[90px] h-10" />
-              </a>
-              <div>
-                <h1 class="font-bold text-base">
-                  Kunjungan Industri Mahasiswa dan Mahasiswi Polines Unair.
-                </h1>
-                <p class="text-sm text-[#A7C4D6]">
-                  Mahasiswa dan mahasiswi Polines Unair diberikan penjelasan
-                  tentang batik, lalu langsung mempraktikan langsung cara
-                  membatik tulis di kain yang telah disediakan.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- gradient -->
-        <div
-          class="w-full h-16 bg-gradient-to-b from-[#ff860d] to-[#EDB059] text-center p-7 mt-4"
-        >
-          <h1
-            class="font-bold text-xl flex flex-col items-center justify-center h-full"
-          >
-            PROSES MEMBATIK
+        <!-- fungsi website -->
+        <div class="text-center pt-10 mx-auto max-w-3xl">
+          <h1 class="text-center text-[#777373] text-2xl font-bold pb-5">
+            Fungsi Website Desa
           </h1>
+          <p class="text-justify indent-8">
+            Salah satu elemen penting dalam mewujudkan penyelenggaraan
+            pemerintahan desa yang terbuka adalah hak publik untuk memperoleh
+            Informasi sesuai dengan peraturan perundang-undangan. Hak atas
+            Informasi menjadi sangat penting karena makin terbuka
+            penyelenggaraan pemerintahan desa untuk diawasi publik,
+            penyelenggaraan pemerintahan desa tersebut makin dapat
+            dipertanggungjawabkan. Hak setiap Orang untuk memperoleh Informasi
+            juga relevan untuk meningkatkan kualitas pelibatan masyarakat dalam
+            proses pengambilan keputusan publik. Partisipasi atau pelibatan
+            masyarakat tidak banyak berarti tanpa jaminan keterbukaan Informasi
+            Publik.
+          </p>
+          <p class="text-justify indent-8">
+            Keberadaan Undang-undang tentang Keterbukaan Informasi Publik sangat
+            penting sebagai landasan hukum yang berkaitan dengan (1) hak setiap
+            Orang untuk memperoleh Informasi; (2) kewajiban Badan Publik
+            menyediakan dan melayani permintaan Informasi secara cepat, tepat
+            waktu, biaya ringan/proporsional, dan cara sederhana; (3)
+            pengecualian bersifat ketat dan terbatas; (4) kewajiban Badan Publik
+            untuk membenahi sistem dokumentasi dan pelayanan Informasi.
+          </p>
+          <p class="text-justify indent-8">
+            Setiap Badan Publik mempunyai kewajiban untuk membuka akses atas
+            Informasi Publik yang berkaitan dengan Badan Publik tersebut untuk
+            masyarakat luas. Lingkup Badan Publik dalam Undang-undang ini
+            meliputi lembaga eksekutif, yudikatif, legislatif, serta
+            penyelenggara negara lainnya yang mendapatkan dana dari Anggaran
+            Pendapatan dan Belanja Negara (APBN)/Anggaran Pendapatan dan Belanja
+            Daerah (APBD) dan mencakup pula organisasi nonpemerintah, baik yang
+            berbadan hukum maupun yang tidak berbadan hukum, seperti lembaga
+            swadaya masyarakat, perkumpulan, serta organisasi lainnya yang
+            mengelola atau menggunakan dana yang sebagian atau seluruhnya
+            bersumber dari APBN/APBD, sumbangan masyarakat, dan/atau luar
+            negeri.
+          </p>
         </div>
 
-        <!-- batik -->
-        <div class="pt-10 p-4 sm:px-8 md:px-12 lg:px-20">
-          <div class="flex flex-col gap-8 sm:flex-row">
-            <div class="flex flex-col sm:flex-row gap-5 w-full sm:w-3/4">
-              <img
-                src="./assets/home/DSCF5202 1.png"
-                class="w-full h-3/4 sm:w-1/2 md:h-full"
-              />
-              <div class="flex flex-col">
-                <h1 class="font-semibold pb-1 text-center text-lg uppercase">
-                  Batik Tulis
-                </h1>
-                <p class="text-center text-sm">
-                  Batik tulis atau batik tradisional merupakan jenis batik yang
-                  proses pembuatannya dilakukan secara manual menggunakan
-                  tangan. Cara membuatnya yaitu menerakan lilin memakai alat
-                  bantu canting pada kain yang sudah ada coraknya.
-                </p>
+        <!-- struktur organisasi -->
+        <div class="pt-10">
+          <h1 class="text-center text-[#777373] text-2xl font-bold pb-5">
+            Struktur Organisasi
+          </h1>
+          <div class="bg-[#F4F4F4] flex items-center justify-center p-7">
+            <img src="./assets/struktur.png" class="mx-auto" />
+          </div>
+        </div>
+
+        <!-- berita desa -->
+        <div class="pt-10">
+          <h1 class="text-center text-[#777373] text-2xl font-bold pb-5">
+            Berita Desa Terbaru
+          </h1>
+
+          <div class="flex justify-center gap-20 items-start max-w-6xl mx-auto">
+            <div class="flex flex-col gap-10 w-2/3">
+              <div class="flex flex-row gap-5 w-full">
+                <img
+                  src="./assets/berita1.png"
+                  class="w-32 h-32 object-cover rounded"
+                />
+                <div class="w-full">
+                  <h1 class="text-[#6489EA] text-lg font-bold">
+                    Jembatan Blok C-1 Sukses Tingkatkan Ekonomi Desa Pandan
+                    Makmur
+                  </h1>
+                  <div class="flex flex-row gap-6 text-[10px]">
+                    <div class="flex items-center gap-2">
+                      <ion-icon name="calendar-outline"></ion-icon>
+                      <p>Kamis, 25 Mei 2023 12:08 WIB</p>
+                    </div>
+                    <div class="flex items-center gap-2">
+                      <ion-icon name="person-outline"></ion-icon>
+                      <p>Admin Desa</p>
+                    </div>
+                  </div>
+                  <p class="text-sm text-justify">
+                    Jambi (ANTARA)- Warga Desa Pandan Makmur Kecamatan Geragai
+                    Kabupaten Tanjung Jabung Timur melalui kepala dasanya
+                    berterima kasih kepada SKK Migas - PetroChina Internasional
+                    Jabung Ltd yang telah berkontribusi membangun jembatan
+                    penghubung Blok C-1 di depan kantor Desa Pandan
+                    Makmur.......
+                  </p>
+                </div>
+              </div>
+
+              <div class="flex flex-row gap-5 w-full">
+                <img
+                  src="./assets/berita2.png"
+                  class="w-32 h-32 object-cover rounded"
+                />
+                <div class="w-full">
+                  <h1 class="text-[#6489EA] text-lg font-bold">
+                    Tenaga Surya Bantuan SKK Migas-PetroChina Jabung Ltd, Kini
+                    Desa Pandan Makmur Terang Benderang
+                  </h1>
+                  <div class="flex flex-row gap-6 text-[10px]">
+                    <div class="flex items-center gap-2">
+                      <ion-icon name="calendar-outline"></ion-icon>
+                      <p>Selasa, 21 Februari 2023 10:04</p>
+                    </div>
+                    <div class="flex items-center gap-2">
+                      <ion-icon name="person-outline"></ion-icon>
+                      <p>Admin Desa</p>
+                    </div>
+                  </div>
+                  <p class="text-sm text-justify">
+                    Hadirnya unit penerangan jalan umum tenaga surya (PJU-TS)
+                    dinilai telah membantu meningkatkan kualitas hidup
+                    masyarakat Desa Pandan Makmur, Kecamatan Geragai Kabupaten
+                    Tanjung Jabung Timur.........
+                  </p>
+                </div>
               </div>
             </div>
-            <div class="flex flex-col sm:flex-row gap-5 w-full sm:w-3/4">
-              <img
-                src="./assets/home/DSCF7285_edited 1.png"
-                class="w-full h-3/4 sm:w-1/2 md:h-full"
-              />
-              <div class="flex flex-col">
-                <h1 class="font-semibold pb-1 text-lg text-center uppercase">
-                  Batik CAP
-                </h1>
-                <p class="text-center text-sm">
-                  Batik cap ini dibuat menggunakan cap atau stempel bermotif
-                  batik. Biasanya, cap ini terbuat dari tembaga dan kerap
-                  dijadikan sebagai pengganti fungsi canting sehingga dapat
-                  mempercepat proses pembuatan.
-                </p>
-              </div>
+
+            <div class="flex flex-col w-1/3">
+              <h2 class="text-xl pb-2">Pengumuman</h2>
+              <hr class="w-64 h-px bg-[#AFA9A9] border-0 mb-4" />
+              <button
+                class="bg-[#89D57C] p-3 rounded-full mb-2 text-xs w-full hover:bg-green-600 transition duration-300"
+              >
+                Pendaftaran Kartu Prakerja
+              </button>
+              <button
+                class="bg-[#89D57C] p-3 rounded-full mb-2 text-xs w-full hover:bg-green-600 transition duration-300"
+              >
+                Seleksi Pengurus BUMdes
+              </button>
+              <button
+                class="bg-[#89D57C] p-3 rounded-full mb-2 text-xs w-full hover:bg-green-600 transition duration-300"
+              >
+                Seleksi Perangkat Desa
+              </button>
+              <button
+                class="bg-[#89D57C] p-3 rounded-full mb-2 text-xs w-full hover:bg-green-600 transition duration-300"
+              >
+                Jadwal Vaksinasi Booster
+              </button>
+            </div>
+          </div>
+
+          <div class="text-center my-8">
+            <button class="p-1 px-8 rounded-full text-white bg-[#6489EA]">
+              View All
+            </button>
+          </div>
+        </div>
+
+        <!-- menu view -->
+        <div class="pt-6">
+          <h1 class="text-center text-[#777373] text-2xl font-bold pb-5">
+            UMKM Desa
+          </h1>
+          <div class="bg-[#F4F4F4] flex items-center justify-center p-7">
+            <div class="max-w-xl flex flex-wrap justify-center gap-4">
+              <button class="p-2 px-6 rounded-full text-white bg-[#6489EA]">
+                All
+              </button>
+              <button class="p-2 px-6 rounded-full text-white bg-[#6489EA]">
+                Makanan
+              </button>
+              <button class="p-2 px-6 rounded-full text-white bg-[#6489EA]">
+                Minuman
+              </button>
+              <button class="p-2 px-6 rounded-full text-white bg-[#6489EA]">
+                Kerajinan
+              </button>
+              <button class="p-2 px-6 rounded-full text-white bg-[#6489EA]">
+                Fashion
+              </button>
+              <button class="p-2 px-6 rounded-full text-white bg-[#6489EA]">
+                Produksi
+              </button>
             </div>
           </div>
         </div>
       </main>
 
-      <!-- footer -->
-      <div class="bg-[#FF7F00] justify-center text-white p-7 px-7 py-8 mt-10">
-        <div class="flex flex-col lg:flex-row items-center gap-5">
-          <img src="./assets/Logo.svg" class="w-72" />
+      <!-- Footer -->
+      <div class="bg-[#458F39] text-white p-7 px-7 py-8 mt-10">
+        <div class="flex flex-col lg:flex-row gap-5 max-w-6xl mx-auto">
+          <!-- Profil Section -->
+          <div class="flex flex-col w-full lg:w-1/2">
+            <h1 class="text-lg font-semibold pb-4 underline">Profil</h1>
+            <p class="text-justify text-sm">Desa Pandan Makmur- Kec Geragai</p>
+            <p class="text-justify text-sm">Kab.Tanjung Jabunng Timur</p>
+            <p class="text-justify text-sm">
+              Website desa dibangun sebagai bagian dari SISTEM INFORMASI DESA
+              yang berfungsi sebagai portal informasi, transparansi, dan
+              sosialisasi pemerintah terkait tata kelola pembangunan kawasan
+              perdesaan (pembangunan, pembinaan dan pemberdayaan) yang dirasakan
+              langsung oleh masyarakat sebagai penerima manfaat.
+            </p>
+          </div>
 
-          <div class="w-1/2">
+          <!-- Tautan Section -->
+          <div class="w-full lg:w-1/3 pl-10">
+            <h1 class="text-lg font-semibold pb-4 underline">Tautan</h1>
+            <ol class="list-disc">
+              <li>Login Admin</li>
+            </ol>
+          </div>
+
+          <!-- Kontak Section -->
+          <div class="w-full lg:w-1/2">
             <div class="pb-4">
-              <h1 class="text-lg font-bold pb-1">Find Us</h1>
-              <a
-                href="https://www.google.com/maps/place/Gerbang+Utama+Kampung+Wisata+Batik+Kauman+Solo/@-7.572406,110.8232797,17z/data=!4m6!3m5!1s0x2e7a177696275869:0x5eaf67f11c0a09e9!8m2!3d-7.5714999!4d110.8258284!16s%2Fg%2F11t053cnpq?entry=ttu"
-                class="text-sm"
-                >Jl. Wijaya Kusuma No.38, Kauman</a
-              >
+              <h1 class="text-lg font-semibold pb-4 underline">Kontak Kami</h1>
+              <p class="text-justify text-sm">
+                Alamat Kantor, Jl. Hasanudin RT 03 Dusun Pandan Mulyo Desa
+                Pandan Makmur Kec. Geragai Kab.Tanjab Timur. Kontak,
+              </p>
             </div>
 
             <div class="pb-4">
-              <h1 class="text-lg font-bold pb-1">Contact Us</h1>
               <div class="flex flex-row gap-2 items-center">
-                <ion-icon name="logo-whatsapp" class=""></ion-icon>
-                <a
-                  href="https://api.whatsapp.com/send/?phone=628156717154&text&type=phone_number&app_absent=0"
-                  class="text-sm"
-                  >+62 81 - 5671 - 7154</a
-                >
+                <ion-icon name="logo-whatsapp" class="text-2xl"></ion-icon>
+                <a class="text-sm">085307400055</a>
               </div>
               <span class="flex gap-2 pt-2 flex-row items-center">
-                <ion-icon name="mail-outline" class=""></ion-icon>
-                <a
-                  href="mailto:Batikkaumankampungwisata@gmail.com"
-                  class="text-sm"
-                  >Batikkaumankampungwisata@gmail.com</a
-                >
+                <ion-icon name="mail-outline" class="text-2xl"></ion-icon>
+                <a class="text-sm">desapandanmakmur@gmail.com</a>
               </span>
             </div>
 
             <!-- Social Media -->
             <div class="pb-4">
-              <h1 class="text-lg font-bold pb-1">Social Media</h1>
               <div class="flex gap-3">
                 <a
-                  href="https://www.instagram.com/explorekampungbatikkauman/"
-                  class="rounded-full bg-[#FFAD0E] p-3 flex justify-center items-center"
+                  href="#"
+                  class="rounded-full p-3 flex justify-center items-center"
                 >
                   <ion-icon
                     name="logo-instagram"
-                    class="text-white scale-150"
+                    class="text-white text-2xl"
                   ></ion-icon>
                 </a>
                 <a
-                  href="https://www.youtube.com/@kampungwisatabatikkaumanso5321"
-                  class="rounded-full bg-[#FFAD0E] p-3 flex justify-center items-center"
+                  href="#"
+                  class="rounded-full p-3 flex justify-center items-center"
                 >
                   <ion-icon
                     name="logo-youtube"
-                    class="text-white scale-105"
+                    class="text-white text-2xl"
                   ></ion-icon>
                 </a>
                 <a
-                  href="https://www.tiktok.com/@explorekampungbatikauman"
-                  class="rounded-full bg-[#FFAD0E] p-3 flex justify-center items-center"
+                  href="#"
+                  class="rounded-full p-3 flex justify-center items-center"
                 >
                   <ion-icon
                     name="logo-tiktok"
-                    class="text-white scale-150"
+                    class="text-white text-2xl"
                   ></ion-icon>
                 </a>
               </div>
             </div>
           </div>
-
-          <div class="w-3/4">
-            <h1 class="text-lg font-bold pb-1">About Us</h1>
-            <p>
-              Kampung Wisata Batik Kauman Solo adalah Kampung batik yang
-              terletak di Kauman, Solo. Yang berlokasi dekat dengan Keraton
-              Surakarta dan Masjid Agung. Kampung Wisata Batik Kauman tidak
-              hanya menjual batik tulis dan cap, pengunjung akan mendapatkan
-              pengalaman bagaimana proses pembuatan batik dan bisa merasakannya
-              sendiri dengan belajar batik di Kampung Wisata Batik Kauman Solo.
-              Kampung Wisata Batik Kauman Solo juga dilengkapi dengan berbagai
-              kuliner dari tradisional sampai modern.
-            </p>
-          </div>
         </div>
+      </div>
 
-        <div>
-          <hr class="my-6 border-white sm:mx-auto lg:my-7" />
-          <span class="flex flex-col text-sm sm:text-center"
-            >© 2023 KAMPUNG WISATA BATIK KAUMAN SOLO
-            <p>sazzahrra</p>
-          </span>
-        </div>
+      <!-- Wisata Desa Section -->
+      <div
+        class="bg-[#89D57C] h-20 items-center flex text-xl font-semibold text-white pl-10 py-2"
+      >
+        WisataDesa
       </div>
     </div>
   </body>
